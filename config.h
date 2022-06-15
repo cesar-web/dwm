@@ -96,6 +96,8 @@ static Key keys[] = {
 	//{ MODALT|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	//{ MODALT|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 
+	{ MODALT|ShiftMask,             XK_q, quit,         {0} },
+
 	TAGKEYS(                        XK_u,                      0)
 	TAGKEYS(                        XK_i,                      1)
 	TAGKEYS(                        XK_o,                      2)
